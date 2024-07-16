@@ -27,7 +27,7 @@ public class BankAccount {
     }
 
     public String toString() {
-        return "Balance: "+this.balance+" of "+this.firstName+" "+this.lastName+"\nAccount Number: "+this.accountNum;
+        return "Balance: "+"$"+String.format("%.2f",this.balance)+" of "+this.firstName+" "+this.lastName+"\nAccount Number: "+this.accountNum;
     }
 
 }
