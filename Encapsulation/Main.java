@@ -2,7 +2,7 @@ package Encapsulation;
 public class Main {
     public static void main(String[] args) {
 
-        BankAccount account1 = new BankAccount(100.0, "Rachel","Luo",1);
+        BankAccount account1 = new BankAccount(100.0, "Johnny","Cash",1);
 
 
         System.out.println(account1.getBalance());
