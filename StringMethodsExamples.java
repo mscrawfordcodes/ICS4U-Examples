@@ -12,7 +12,7 @@ public class StringMethodsExamples {
   
       System.out.println(stringB.length());
   
-      for(int i =0; i < stringB.length(); i++) {
+      for(int i=0; i < stringB.length(); i++) {
         if(stringB.charAt(i) == ' ') {
           System.out.println("we found a space at index "+i);
         }
