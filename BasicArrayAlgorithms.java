@@ -17,6 +17,7 @@ public class BasicArrayAlgorithms {
             System.out.print("Enter a number: ");
             array[index] = input.nextInt();
         }
+        input.close();
 
 
         // finding the maximum value
@@ -38,7 +39,7 @@ public class BasicArrayAlgorithms {
 
 
         // printing an array
-        
+
         System.out.println(Arrays.toString(array));
         System.out.println(Arrays.toString(array2));
 
@@ -48,7 +49,5 @@ public class BasicArrayAlgorithms {
             System.out.println(array[i]);
         }
 
-
-
-    }
-}
+    } // end main method
+} // end class
